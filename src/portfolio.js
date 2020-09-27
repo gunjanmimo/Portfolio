@@ -7,23 +7,25 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Gunjan Paul",
+  title: "Hi all, I'm Gunjan",
   subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/1AQICUigb4Os5FnxPiXk112It9qTfIgus/view?usp=sharing"
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
 
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
+  github: "https://github.com/gunjanmimo",
+  linkedin: "https://www.linkedin.com/in/gunjan-paul-8a2806152/",
+  gmail: "gunjan.mtbpaul@gmail.com",
+  gitlab: "https://gitlab.com/gunjanmimo",
+  facebook: "https://www.facebook.com/gunjan.paul.372/",
+  medium: "https://medium.com/@gunjanpaul",
+  stackoverflow: "https://stackoverflow.com/users/11675463/gunjan-paul",
+  instagram: "https://www.instagram.com/gunjan_mimo/",
+  twitter: "https://twitter.com/GunjanPaul2"
   // Instagram and Twitter are also supported in the links!
 };
 
@@ -38,8 +40,8 @@ const skillsSection = {
     emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
   ],
 
-/* Make Sure You include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+  /* Make Sure You include correct Font Awesome Classname to view your icon
+  https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
@@ -186,7 +188,7 @@ To know how to get github key look at readme.md */
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false
+  showGithubProfile: "true" // Set true or false to show Contact profile using Github, defaults to false
 };
 
 
@@ -294,15 +296,15 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-6295657810",
+  email_address: "gunjan.mtbpaul@gmail.com"
 };
 
 //Twitter Section
 
 const twitterDetails = {
 
-  userName : "twitter"//Replace "twitter" with your twitter username without @
+  userName: "GunjanPaul2"//Replace "twitter" with your twitter username without @
 
 };
-export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo, twitterDetails };
