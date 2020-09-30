@@ -203,13 +203,13 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/",
+      image: require("./assets/images/technocolabs.png"),
+      link: "https://technocolabs.tech/",
     },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/",
-    },
+    // {
+    //   image: require("./assets/images/nextuLogo.webp"),
+    //   link: "http://nextu.se/",
+    // },
   ],
 };
 
