@@ -121,7 +121,7 @@ const educationInfo = {
     //   ]
     // },
     {
-      schoolName: "Stanford University",
+      schoolName: "University of Engineering & Management, Jaipu",
       // logo: require("./assets/images/UEMlogo.png"),
       subHeader: "Bachelor of Technology in Computer Science and Engineering",
       duration: "June 2018 - present",
@@ -172,7 +172,7 @@ const workExperiences = {
       role: "Artificial Intelligence Intern",
       company: "LoveOnn",
       companylogo: require("./assets/images/loveonn.png"),
-      date: "May 2017 – May 2018",
+      date: "July 2020 – Octobor 2020",
       desc: "data driven business solution",
       descBullets: ["AI based loan service", "AI based customized webpage"],
     },
@@ -180,7 +180,7 @@ const workExperiences = {
       role: "Research Intern",
       company: "National Institute of Technology",
       companylogo: require("./assets/images/NIT.png"),
-      date: "Jan 2015 – Sep 2015",
+      date: "December 2019 – January 2020",
       desc:
         "Image processing model to detect complex building structure from low level image data",
     },
@@ -284,16 +284,18 @@ const blogSection = {
   blogs: [
     {
       url:
-        "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+        "https://medium.com/@gunjanpaul/google-action-in-10min-without-a-single-line-of-code-and-get-free-google-t-shirt-and-200-of-b459eae82c31",
+      title:
+        "Google Action in 10min without a single line of code and get free google T-Shirt and $200 of Google Cloud parks",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?",
+        "In this article, I will guide you to make your very first google action and as promised, you will get awesome Google swags",
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url:
+        "https://medium.com/@gunjanpaul/my-first-ever-hacktoberfest-contributor-to-meshery-a5f888fc3dbf",
+      title: "My First Ever Hacktoberfest: Contributor to Meshery",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.",
+        "Meshery is a multi-mesh management plane with initial functionality as a playground to facilitate learning about the functionality and performance of different service meshes.",
     },
   ],
 };
