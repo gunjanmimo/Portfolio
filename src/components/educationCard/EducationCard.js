@@ -1,6 +1,6 @@
-import React, { createRef } from 'react';
-import { Fade, Slide, Zoom } from 'react-reveal';
-import './EducationCard.css';
+import React, { createRef } from "react";
+import { Fade, Slide, Zoom } from "react-reveal";
+import "./EducationCard.css";
 
 export default function EducationCard({ school }) {
   const imgRef = createRef();
@@ -16,13 +16,13 @@ export default function EducationCard({ school }) {
       <Fade left duration={1000}>
         <div className="education-card">
           <div className="education-card-left">
-            <img
+            {/* <img
               crossOrigin={'anonymous'}
               ref={imgRef}
               className="education-roundedimg"
               src={school.logo}
               alt={school.schoolName}
-            />
+            /> */}
           </div>
           <div className="education-card-right">
             <h5 className="education-text-school">{school.schoolName}</h5>
