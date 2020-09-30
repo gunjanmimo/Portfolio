@@ -192,7 +192,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "gunjanmimo", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to false
 };
 
@@ -221,52 +221,53 @@ const achievementSection = {
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achivementsCards: [
-    {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      footerLink: [
-        {
-          name: "Certification",
-          url:
-            "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing",
-        },
-        {
-          name: "Award Letter",
-          url:
-            "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing",
-        },
-        {
-          name: "Google Code-in Blog",
-          url:
-            "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html",
-        },
-      ],
-    },
+    // {
+    //   title: "Google Code-In Finalist",
+    //   subtitle:
+    //     "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+    //   image: require("./assets/images/codeInLogo.webp"),
+    //   footerLink: [
+    //     {
+    //       name: "Certification",
+    //       url:
+    //         "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing",
+    //     },
+    //     {
+    //       name: "Award Letter",
+    //       url:
+    //         "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing",
+    //     },
+    //     {
+    //       name: "Google Code-in Blog",
+    //       url:
+    //         "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html",
+    //     },
+    //   ],
+    // },
     {
       title: "Google Assistant Action",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "Developed a Google Assistant Action The Fun FlaskCard Faq Game of Solar System and Universe that is available on 2 Billion devices world wide.",
       image: require("./assets/images/googleAssistantLogo.webp"),
       footerLink: [
         {
           name: "View Google Assistant Action",
           url:
-            "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en",
+            "https://assistant.google.com/services/a/uid/0000002a88962a22?source=web",
         },
       ],
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Developed Animal Kingdom",
+      subtitle:
+        " a multi-page web app called ‘Animal Kingdom,a decentralized blockchain application",
+      image: require("./assets/images/Dapp.svg"),
       footerLink: [
         { name: "Certification", url: "" },
         {
           name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/",
+          url: "#",
         },
       ],
     },
