@@ -159,31 +159,30 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      company: "I'M NOT A BARISTA",
+      companylogo: require("./assets/images/BARISTA.png"),
+      date: "September 2020 – Present",
+      desc: "Developing web application fo rcoffee transaction",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "working on spring boot and spring security",
+        "dealing wit microservice and continuous integration",
       ],
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      role: "Artificial Intelligence Intern",
+      company: "LoveOnn",
+      companylogo: require("./assets/images/loveonn.png"),
       date: "May 2017 – May 2018",
-      desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "data driven business solution",
+      descBullets: ["AI based loan service", "AI based customized webpage"],
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      role: "Research Intern",
+      company: "National Institute of Technology",
+      companylogo: require("./assets/images/NIT.png"),
       date: "Jan 2015 – Sep 2015",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Image processing model to detect complex building structure from low level image data",
     },
   ],
 };
