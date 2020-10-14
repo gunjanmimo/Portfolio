@@ -33,7 +33,7 @@ If you created something awesome and want to contribute then feel free to open a
 ✔️ Twitter Timeline\
 ✔️ Github Profile
 
-To view a live example, **[click here](https://developerfolio.js.org/)**.
+To view a live example, **[click here](http://www.commandline.ml/)**.
 
 
 ## Getting Started 🚀
